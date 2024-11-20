@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+div{
+    background-color: rgb(20, 19, 19);
+    margin: 10%;
+    padding: 3%;
+}
+table{
+    width: 80%;
+    border: 1px solid rgb(99, 93, 93);
+    margin: auto;
+    color: white;
+    border-spacing: 0;
+    height: 400px;
+}
+td , th{
+    border: 1px solid rgb(99, 93, 93)
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#a1{
+    background-color: white;
+    color: black;
+    border: 0;
+}
+#a2{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+    border: 0;
+}
+#a3{
+background-color: orangered;
+color: white;
+border-color: orangered;
+border: 0;
+}
+#a4{
+    background-color: lightseagreen;
+    color: white;
+    border-color: lightseagreen;
+    border: 0;
+}
+#a5{
+    color: orange;
+}
+#a6{
+    color: orangered;
+}
+#a7{
+    color: lightseagreen;
+}
+.td{
+    text-align: center;
+    padding: 5px;
+}
+
+button{
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    border-color: red;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+#a5 , #a6 ,#a7{
+    font-size: x-large;
+}
+td:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+    
+}
+.td1{
+    font-size: x-large;
+    color: yellow;
+    text-align: center;
+    padding: 5px;
+}
